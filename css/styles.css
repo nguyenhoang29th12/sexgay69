@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.movie-list {
+    padding: 20px;
+}
+
+.movie-item {
+    margin-bottom: 20px;
+}
+
+.movie-item img {
+    width: 150px;
+    height: auto;
+}
+
+form {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

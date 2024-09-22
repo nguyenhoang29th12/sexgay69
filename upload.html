@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Phim</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Phim</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="upload.html">Upload Phim</a></li>
+                <li><a href="#">Thể loại</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="title">Tên Phim:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="genre">Thể loại:</label>
+            <input type="text" id="genre" name="genre" required>
+
+            <label for="year">Năm phát hành:</label>
+            <input type="number" id="year" name="year" required>
+
+            <label for="description">Mô tả:</label>
+            <textarea id="description" name="description" required></textarea>
+
+            <label for="file">Tệp video:</label>
+            <input type="file" id="file" name="file" accept="video/*" required>
+
+            <label for="cover">Hình ảnh bìa:</label>
+            <input type="file" id="cover" name="cover" accept="image/*" required>
+
+            <button type="submit">Upload</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Thông tin : Nguyễn Thế Hoàng</p>
+        <p>Email: nguyenhoang121315@gmail.com</p>
+        <p>link fb: fb.com/bomaytenhoang</p>
+        <p>Hoàng sa, Trường sa là của việt nam</p>
+        <p>Bọn trung quốc tuổi lồn</p>
+        <p>&copy; 2024 nguyenhoang</p>
+    </footer>
+</body>
+</html>
